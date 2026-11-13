@@ -1,7 +1,10 @@
 print("hey i am swastik /n this is also agood boy")
 # I am swastk
-cd /workspaces/Python-Tutorial
-git status
-git add "05-Day5-Comments-and-Print/main.py"
-git commit -m "Update Day 5 code"
-git push
+"""This is an if-else statement.
+It will execute a block of code if a specified condition is true.
+If the condition is false then it will execute another block of code."""
+p = 7
+if (p > 5):
+    print("p is greater than 5.")
+else:
+    print("p is not greater than 5.")
